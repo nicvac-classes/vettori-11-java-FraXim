@@ -43,7 +43,7 @@ class Esercizio {
         System.out.println("Inserisci un numero");
         t = in.nextInt();
         for (i = 0; i <= n - 1; i++) {
-            for (j = 0; j <= n - 1; j++) {
+            for (j = i+1; j <= n - 1; j++) {
                 if (u[i] + u[j] == t) {
                     System.out.println((u[i]) + " + " + u[j] + " = " + t);
                 } else {
